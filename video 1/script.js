@@ -1,0 +1,1 @@
+alert("welcome to the vikas ki website ")

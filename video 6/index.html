@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <!-- h1 is used to give the heading  -->
+    <h1>Form to Apply in VIKAHARO Pvt. ltd.</h1>
+
+    <!-- form tag is used to display the form and post is used to submit the data and 
+         get is used to retrive the data        -->
+  
+       <form action = "post">
+        <div>
+            <!-- label is used to agar text par bhi click kare to right ho jaye -->
+            <label for = "username">Enter your username</label>
+
+            <!-- input is used to take the input and id is unique and placeholder dabbe ke andar jo likha hua aayga -->
+            <input type = "text" id = "username" name ="username" placeholder = "enter your username ">
+        </div>
+        <div>
+            <input type = "radio" id-"male" name="gender" value="male">
+            <label for ="male">Male</label>
+            <input type = "radio" id ="female" name = "gender" value = "female">
+            <label for = "female" >Female</label></label>
+        </div>
+
+        <div>
+            <input type = "checkbox" id = "subscribe" name = "subscribe" value="yes">
+            <label for = "subscribe">Join our company</label>
+        </div>
+
+        <div>
+            <label for="comment">Enter your soch vichar</label>
+
+            <!-- textarea is used to define the area of text -->
+            <textarea id= "comment" name= "comment"rows="4" cols="50"></textarea> 
+        </div>
+       </form>
+</body>
+</html>
